@@ -1,0 +1,35 @@
+﻿<Window x:Class="ConvertitoreValuteClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConvertitoreValuteClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="280" Width="950">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Label FontSize="35" Grid.ColumnSpan="3" VerticalAlignment="Center">Convertitore di valute</Label>
+
+        <TextBox x:Name="tbConverti" Grid.Row="1" Margin="10,38,10,38">1</TextBox>
+        <Label x:Name="lbConvertito" Grid.Row="1" Grid.Column="3" VerticalAlignment="Center">1</Label>
+        <ComboBox x:Name="PrimaCombo" Grid.Row="1" Grid.Column="1" Margin="10,38,10,38"></ComboBox>
+        <ComboBox x:Name="SecondaCombo" Grid.Row="1" Grid.Column="4" Margin="10,38,10,38"></ComboBox>
+        <Label Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">= </Label>
+        <Label x:Name="lbConvertReale" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" FontSize="15" Width="400" Height="45" VerticalContentAlignment="Center"></Label>
+        <Button Grid.Row="2" Grid.Column="3" Margin="10,10,10,10" Click="scambiaValute">Scambia Valute</Button>
+        <Button Grid.Row="2" Grid.Column="4" Margin="53,10,53,10" Click="Calcola_Click"> Calcola </Button>
+    </Grid>
+</Window>
