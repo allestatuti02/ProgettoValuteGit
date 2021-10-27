@@ -69,9 +69,9 @@ namespace ConvertitoreValuteClient
             string a = PrimaCombo.SelectedItem.ToString();
             double tempX = double.Parse(tbConverti.Text);
             double tempY = double.Parse(lbConvertito.Content.ToString());
-            double tot = tempX / tempY;
+            double tot = tempY / tempX;
             string b = (tot).ToString();
-            string c = PrimaCombo.SelectedItem.ToString();
+            string c = SecondaCombo.SelectedItem.ToString();
 
             lbConvertReale.Content = string.Format(cambio, a, b, c);
         }

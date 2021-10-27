@@ -27,4 +27,3 @@ C:\Users\Local\Desktop\CartellaProgettoGit\ProgettoValuteGit\ConvertitoreValuteC
 C:\Users\Local\Desktop\CartellaProgettoGit\ProgettoValuteGit\ConvertitoreValuteClient\ConvertitoreValuteClient\bin\Debug\net5.0-windows\System.ServiceModel.Primitives.dll
 C:\Users\Local\Desktop\CartellaProgettoGit\ProgettoValuteGit\ConvertitoreValuteClient\ConvertitoreValuteClient\bin\Debug\net5.0-windows\System.ServiceModel.dll
 C:\Users\Local\Desktop\CartellaProgettoGit\ProgettoValuteGit\ConvertitoreValuteClient\ConvertitoreValuteClient\bin\Debug\net5.0-windows\System.ServiceModel.Security.dll
-C:\Users\Local\Desktop\CartellaProgettoGit\ProgettoValuteGit\ConvertitoreValuteClient\ConvertitoreValuteClient\obj\Debug\net5.0-windows\ConvertitoreValuteClient.csproj.CopyComplete

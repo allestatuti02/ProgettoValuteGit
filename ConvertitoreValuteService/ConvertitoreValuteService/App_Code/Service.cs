@@ -65,12 +65,10 @@ public class Service : IService
     {
 		if(da != "Euro")
         {
-			double convertEuro = 0;
-			convertEuro = dizConverti["Euro"] / dizConverti[da];
-			da = "Euro";
-			return importo * (convertEuro * dizConverti[a]);
+			importo = importo / dizConverti[da];
+			return importo * dizConverti[a];
 		}
 		else
-			return importo * (dizConverti[da] * dizConverti[a]);
+			return importo * dizConverti[a];
     }
 }
